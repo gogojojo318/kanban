@@ -252,6 +252,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  net-protocol (= 0.2.2)
   pg (~> 1.4)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
