@@ -90,7 +90,7 @@ GEM
       warden (~> 1.2.3)
     erubi (1.12.0)
     execjs (2.9.1)
-    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.14.5)
@@ -127,6 +127,8 @@ GEM
       net-protocol
     nio4r (2.7.3)
     nokogiri (1.15.6-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.6-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.5.6)
@@ -243,6 +245,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -252,7 +255,6 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.7)
   listen (~> 3.2)
-  net-protocol (= 0.2.2)
   pg (~> 1.4)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
@@ -272,5 +274,3 @@ RUBY VERSION
 
 BUNDLED WITH
    2.4.22
-
-bundle lock --add-platform x86_64-linux
